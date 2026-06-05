@@ -1,0 +1,5 @@
+v = float(input("Digite o valor: "))
+t = float(input("Digite o tempo: "))
+x = float(input("digite a taxa: "))
+p = v + ( v * (x / 100) * t)
+print ("A prestação foi de: ",p,"reais")
